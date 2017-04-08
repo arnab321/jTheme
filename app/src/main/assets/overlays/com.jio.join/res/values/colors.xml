@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_action_color_filter">#ff000000</color>
+    <color name="accent_material_light">@color/material_deep_teal_200</color>
+
+    <color name="background_floating_material_light">@color/material_grey_800</color>
+
+    <color name="button_material_light">#ff5a595b</color>
+
+    <color name="cardview_light_background">#ff000000</color>
+
+    <color name="joyn_wit_white_chat_highlight_outgoing">#ff000000</color>
+    <color name="joyn_wit_white_chat_bg">#ff000000</color>
+    <color name="madme_checkbox_tile_unchecked_text_color">#ff000000</color>
+    <color name="madme_checkbox_tile_uncheckedbackground">#ff000000</color>
+    <color name="madme_radio_tile_unchecked_text_color">#ff000000</color>
+    <color name="madme_radio_tile_uncheckedbackground">#ff000000</color>
+    <color name="madme_dropdown_arrow">#ff51b7c1</color>
+    <color name="madme_dropdown_background">#ff222222</color>
+    <color name="madme_dropdown_item_background">#ff333333</color>
+    <color name="madme_dropdown_item_text_color">#ffffffff</color>
+    <color name="madme_permission_bg">#00222222</color>
+
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_light</color>
+    <color name="bright_foreground_material_light">#8affffff</color>
+    <color name="joyn_wit_white_text_chat_labels">#8affffff</color>
+    <color name="joyn_wit_white_generic_list_separator">#1fffffff</color>
+
+
+
+    <color name="switch_thumb_disabled_material_light">#ff616161</color>
+    <color name="switch_thumb_normal_material_light">#ffbdbdbd</color>
+
+    <color name="dim_foreground_disabled_material_light">#80bebebe</color>
+    <color name="dim_foreground_material_light">#ffbebebe</color>
+
+    <color name="highlighted_text_material_light">#6680cbc4</color>
+    <color name="primary_text_default_material_light">#deffffff</color>
+    <color name="primary_text_disabled_material_light">#39ffffff</color>
+    <color name="secondary_text_default_material_light">#b3ffffff</color>
+    <color name="secondary_text_disabled_material_light">#36ffffff</color>
+
+    <color name="quality_good">#ff00ff00</color>
+    <color name="quality_poor">#ff00ff00</color>
+    <color name="quality_unknown">#ff00ff00</color>
+
+    <color name="white">#ff000000</color>
+    <color name="black">#ffffffff</color>
+    <color name="white_50_percent">#80000000</color>
+    <color name="wit_white_background">#ff000000</color>
+
+    <color name="transparent_black_0_percent">#00ffffff</color>
+    <color name="transparent_black_25_percent">#44ffffff</color>
+    <color name="transparent_black_30_percent">#4dffffff</color>
+    <color name="transparent_black_40_percent">#66ffffff</color>
+    <color name="transparent_black_50_percent">#8cffffff</color>
+    <color name="transparent_black_54_percent">#ff6a6a6a</color>
+    <color name="transparent_black_65_percent">#a6ffffff</color>
+    <color name="transparent_black_87_percent">#deffffff</color>
+    <color name="transparent_white_54_percent">#8a000000</color>
+    <color name="transparent_white_87_percent">#de000000</color>
+    <color name="transparent">#30000000</color>
+
+    <color name="foreground_material_light">@android:color/white</color>
+    <color name="joyn_white_tabs_bg">#ff000000</color>
+    <color name="joyn_white_text_black">#ffbbbbbb</color>
+    <color name="joyn_wit_white_black">#ffbbbbbb</color>
+    <color name="joyn_white_dialog_bg">#ff000000</color>
+    <color name="joyn_white_dialog_divider">#ffd9d9d9</color>
+    <color name="design_textinput_error_color_light">#ffff6e6e</color>
+
+
+    <color name="ripple_material_dark">#33000000</color>
+    <color name="joyn_wit_white_dialer_grey_wrapper">#ff222266</color>
+
+    <color name="joyn_wit_white_red">#ff8f2424</color>
+    <color name="red">#ff8f2424</color>
+    <color name="wit_white_red">#ff8f2424</color>
+
+    <color name="material_grey_50">#ff666666</color>
+
+<!-- constants -->
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_blue_grey_950">#ff21272b</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff009688</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_300">#ffe0e0e0</color>
+
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_800">#ff424242</color>
+    <color name="material_grey_850">#ff303030</color>
+    <color name="material_grey_900">#ff212121</color>
+</resources>

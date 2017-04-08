@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Dialer.Slider.Container.WitWhite" parent="">
+        <item name="android:background">#ff111111</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="MadmeDialogTheme" >
+        <item name="android:windowTitleBackgroundStyle">#ff000000</item>
+    </style>
+    <!--<style name="Provisioning.LinearLayout.Input.Container.WitWhite" parent="">-->
+        <!--<item name="android:background">#ff212121</item>-->
+
+        <!--&lt;!&ndash;<item name="android:gravity">center</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:orientation">horizontal</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_width">fill_parent</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_height">wrap_content</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_marginLeft">16.0dip</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_marginTop">8.0dip</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_marginRight">16.0dip</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_below">@id/tv_powered_by</item>&ndash;&gt;-->
+    <!--</style>-->
+
+    </resources>
