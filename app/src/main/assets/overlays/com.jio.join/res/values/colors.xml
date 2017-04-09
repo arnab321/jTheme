@@ -55,7 +55,8 @@
     <color name="transparent_black_30_percent">#4dffffff</color>
     <color name="transparent_black_40_percent">#66ffffff</color>
     <color name="transparent_black_50_percent">#8cffffff</color>
-    <color name="transparent_black_54_percent">#ff6a6a6a</color>
+    <color name="transparent_black_54_percent">#a3ffffff</color>
+    <!--<color name="transparent_black_54_percent">#8affffff</color>-->
     <color name="transparent_black_65_percent">#a6ffffff</color>
     <color name="transparent_black_87_percent">#deffffff</color>
     <color name="transparent_white_54_percent">#8a000000</color>

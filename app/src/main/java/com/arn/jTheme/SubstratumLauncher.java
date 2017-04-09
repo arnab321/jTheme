@@ -42,7 +42,6 @@ import static com.arn.jTheme.ThemerConstants.PIRACY_CHECK;
 import static com.arn.jTheme.ThemerConstants.SUBSTRATUM_FILTER_CHECK;
 import static com.arn.jTheme.ThemerConstants.THEME_READY_GOOGLE_APPS;
 
-
 public class SubstratumLauncher extends Activity {
 
     private static final String SUBSTRATUM_PACKAGE_NAME = "projekt.substratum";
@@ -169,7 +168,6 @@ public class SubstratumLauncher extends Activity {
             startActivity(intent);
             finish();
         }
-
     }
 
     @Override
