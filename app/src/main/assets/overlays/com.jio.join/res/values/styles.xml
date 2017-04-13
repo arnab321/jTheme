@@ -25,4 +25,41 @@
         <!--<item name="android:layout_below">@id/tv_powered_by</item>-->
     </style>
 
+    <style name="Chat.Separator.UnreadMessage.Container.WitWhite" parent="">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/wit_white_chat_divider_center_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LinearLayout.CharCounter.Container.WitWhite" parent="">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--
+    <style name="RelativeLayout.Settings.BaseRow.WitWhite" parent="">
+        <item name="android:background">@drawable/joyn_wit_white_settings_selector</item>
+        <item name="android:padding">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">56.0dip</item>
+    </style>
+
+    <style name="LinearLayout.Settings.HeaderRow.WitWhite" parent="@style/RelativeLayout.Settings.BaseRow.WitWhite">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    -->
+    <style name="TextAppearance.Design.Snackbar.Message" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/design_snackbar_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
     </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_snackbar_text_size">14.0sp</dimen>
+    <dimen name="call_composer_round_corner">15.0dip</dimen>
+    <dimen name="call_composer_round_corner_large">30.0dip</dimen>
+    <dimen name="call_composer_round_corner_small">7.0dip</dimen>
+
+</resources>

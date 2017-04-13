@@ -71,8 +71,11 @@
     <color name="joyn_white_dialog_divider">#ffd9d9d9</color>
     <color name="design_textinput_error_color_light">#ffff6e6e</color>
 
+    <color name="wit_white_pressed">#99efeff4</color>
 
-    <color name="ripple_material_dark">#33000000</color>
+
+    <color name="ripple_material_dark">#33ffffff</color>
+
     <color name="joyn_wit_white_dialer_grey_wrapper">#ff222266</color>
 
     <color name="joyn_wit_white_red">#ff8f2424</color>
@@ -94,4 +97,7 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
+
+    <color name="dialog_red">#fff24e35</color>
+    <color name="dialog_wine">#ffc1392b</color>
 </resources>
