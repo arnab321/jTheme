@@ -12,25 +12,12 @@
         <item name="android:layout_alignParentBottom">true</item>
     </style>
 
-    <style name="Provisioning.LinearLayout.Input.Container.WitWhite" parent="">
-        <item name="android:gravity">center</item>
-        <item name="android:orientation">horizontal</item>
-        <!--<item name="android:background">@drawable/joyn_wit_white_bg_inputfield_normal</item>-->
-        <item name="android:backgroundTint">#000000</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">16.0dip</item>
-        <item name="android:layout_marginTop">8.0dip</item>
-        <item name="android:layout_marginRight">16.0dip</item>
-        <!--<item name="android:layout_below">@id/tv_powered_by</item>-->
-    </style>
-
     <style name="Chat.Separator.UnreadMessage.Container.WitWhite" parent="">
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:orientation">horizontal</item>
-        <item name="android:background">@drawable/wit_white_chat_divider_center_background</item>
+        <item name="android:background">@*com.jio.join:drawable/wit_white_chat_divider_center_background</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
@@ -58,8 +45,83 @@
     </style>
     -->
     <style name="TextAppearance.Design.Snackbar.Message" parent="@android:style/TextAppearance">
-        <item name="android:textSize">@dimen/design_snackbar_text_size</item>
+        <item name="android:textSize">@*com.jio.join:dimen/design_snackbar_text_size</item>
         <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CallComposer.CallButton.WitWhite" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">multiply</item>
+    </style>
+
+    <style name="Button.Chat.Emoticons.WitWhite" parent="">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_camera_selector</item>
+        <item name="android:layout_width">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:src">@*com.jio.join:drawable/joyn_wit_white_emoticon_keyboard</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">src_in</item>
+    </style>
+    <style name="Button.Chat.QuickShare.RecordAudio.WitWhite" parent="">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_camera_selector</item>
+        <item name="android:layout_width">@*com.jio.join:dimen/action_bar_button_width</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:src">@*com.jio.join:drawable/joyn_wit_white_chat_quickshare_voice</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">src_in</item>
+    </style>
+    <style name="Button.Chat.QuickShare.RecordVideo.WitWhite" parent="">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_camera_selector</item>
+        <item name="android:layout_width">@*com.jio.join:dimen/action_bar_button_width</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:src">@*com.jio.join:drawable/joyn_wit_white_chat_quickshare_video</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">src_in</item>
+    </style>
+    <style name="Button.Chat.QuickShare.TakePhoto.WitWhite" parent="">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_camera_selector</item>
+        <item name="android:layout_width">@*com.jio.join:dimen/action_bar_button_width</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:src">@*com.jio.join:drawable/joyn_wit_white_chat_quickshare_photo</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">src_in</item>
+    </style>
+    <style name="Button.Chat.SendMessage.WitWhite" parent="">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_send_button</item>
+        <item name="android:padding">20.0dip</item>
+        <item name="android:layout_width">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">src_in</item>
+    </style>
+    <style name="Button.Chat.ShareIcon.WitWhite" parent="">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_camera_selector</item>
+        <item name="android:layout_width">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/action_bar_button</item>
+        <item name="android:src">@*com.jio.join:drawable/wit_white_ic_action_share_chat</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">src_in</item>
+    </style>
+
+    <style name="ImageView.Default.Calls.WitWhite" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">screen</item>
     </style>
 
     </resources>

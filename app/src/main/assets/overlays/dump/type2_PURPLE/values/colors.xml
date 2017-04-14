@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="circular_reveal_from_color">#ff801599</color>
+    <color name="fcd_frame_background">#ff801599</color>
+    <color name="joyn_wit_white_call_composer_bottom_actionbar_textcolor">#ff801599</color>
+    <color name="joyn_wit_white_call_composer_bottom_actionbar_textcolor_disable">#8c801599</color>
+    <color name="joyn_wit_white_chat_highlight_incoming">#ff801599</color>
+    <color name="joyn_wit_white_green">#ff801599</color>
+    <color name="joyn_wit_white_quick_profile_header">#ff801599</color>
+    <color name="joyn_wit_white_quick_profile_header_pressed">#8c801599</color>
+    <color name="wit_white_action_color">#ff801599</color>
+    <color name="wit_white_action_dark_color">#8c801599</color>
+    <color name="wit_white_primary_color">#ff801599</color>
+    <color name="wit_white_primary_color_disable">#8c801599</color>
+    <color name="wit_white_ripple_color">#ff801599</color>
+    <color name="wit_white_primary_dark_color">#ff801599</color>
+</resources>

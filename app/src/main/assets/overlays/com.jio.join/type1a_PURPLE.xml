@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wit_white_primary_color_disable">#8c801599</color>
+    <color name="wit_white_primary_color">#ff801599</color>
+</resources>

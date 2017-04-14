@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="notification_action_color_filter">#ff000000</color>
-    <color name="accent_material_light">@color/material_deep_teal_200</color>
 
     <color name="background_floating_material_light">@color/material_grey_800</color>
 
@@ -26,7 +25,7 @@
     <color name="bright_foreground_material_light">#8affffff</color>
     <color name="joyn_wit_white_text_chat_labels">#8affffff</color>
     <color name="joyn_wit_white_generic_list_separator">#1fffffff</color>
-
+    <color name="joyn_wit_white_chat_actionbar_title_color">#ffffffff</color>
 
 
     <color name="switch_thumb_disabled_material_light">#ff616161</color>
@@ -61,7 +60,7 @@
     <color name="transparent_black_87_percent">#deffffff</color>
     <color name="transparent_white_54_percent">#8a000000</color>
     <color name="transparent_white_87_percent">#de000000</color>
-    <color name="transparent">#30000000</color>
+    <color name="transparent">#00000000</color>
 
     <color name="foreground_material_light">@android:color/white</color>
     <color name="joyn_white_tabs_bg">#ff000000</color>
@@ -100,4 +99,25 @@
 
     <color name="dialog_red">#fff24e35</color>
     <color name="dialog_wine">#ffc1392b</color>
+
+
+    <color name="circular_reveal_from_color">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="fcd_frame_background">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="joyn_wit_white_call_composer_bottom_actionbar_textcolor">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="joyn_wit_white_call_composer_bottom_actionbar_textcolor_disable">@*com.jio.join:color/wit_white_primary_color_disable</color>
+    <color name="joyn_wit_white_chat_highlight_incoming">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="joyn_wit_white_green">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="joyn_wit_white_quick_profile_header">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="joyn_wit_white_quick_profile_header_pressed">@*com.jio.join:color/wit_white_primary_color_disable</color>
+    <color name="wit_white_action_color">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="wit_white_action_dark_color">@*com.jio.join:color/wit_white_primary_color_disable</color>
+    <color name="wit_white_ripple_color">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="wit_white_primary_dark_color">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="accent_material_light">@*com.jio.join:color/wit_white_primary_color</color>
+    <color name="notification_bg_call">@*com.jio.join:color/wit_white_primary_color</color>
+
+    <!-- accent 
+    <color name="wit_white_primary_color">#ffff0000</color>
+    <color name="wit_white_primary_color_disable">#8cff0000</color>
+-->
 </resources>
