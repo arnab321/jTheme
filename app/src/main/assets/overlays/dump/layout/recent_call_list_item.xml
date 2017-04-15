@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@*com.jio.join:id/rl_container" style="?attr/relativeLayoutChatListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@*com.jio.join:id/iv_avatar" android:layout_centerVertical="true" android:contentDescription="@*com.jio.join:string/cd_contact_image" style="?*com.jio.join:attr/imageViewChatListAvatar" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@*com.jio.join:id/ll_notification" android:layout_toRightOf="@*com.jio.join:id/iv_avatar" android:layout_centerVertical="true">
+        <com.witsoftware.wmc.components.font.FontTextView android:id="@*com.jio.join:id/tv_name" app:hasEmoticons="false" style="?*com.jio.join:attr/textViewChatListName" />
+        <com.witsoftware.wmc.components.font.FontEllipsizingTextView android:id="@*com.jio.join:id/tv_extra_info" style="?*com.jio.join:attr/textViewChatListContactNumber" />
+        <com.witsoftware.wmc.components.font.FontSIMSlotTextView android:id="@*com.jio.join:id/tv_call_state" app:hasEmoticons="false" style="?*com.jio.join:attr/textViewChatListLastMessage" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@*com.jio.join:id/ll_notification" android:layout_height="wrap_content" style="?*com.jio.join:attr/linearLayoutChatDetailsNotification">
+        <ImageView android:id="@*com.jio.join:id/iv_call_log_urgent" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="6.0dip" android:src="@*com.jio.join:drawable/joyn_wit_white_chat_urgent" />
+        <ImageView android:id="@*com.jio.join:id/iv_call_log_picture" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="6.0dip" android:src="@*com.jio.join:drawable/joyn_wit_white_call_log_image" />
+        <ImageView android:id="@*com.jio.join:id/iv_call_log_location" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="6.0dip" android:src="@*com.jio.join:drawable/joyn_wit_white_call_log_location" />
+        <ImageView android:id="@*com.jio.join:id/iv_call_log_subject" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="6.0dip" android:src="@*com.jio.join:drawable/joyn_wit_white_call_log_text" />
+        <com.witsoftware.wmc.components.font.FontTextView android:id="@*com.jio.join:id/tv_last_message_time" style="?*com.jio.join:attr/textViewChatListLastMessageTimestamp" />
+    </LinearLayout>
+    <ImageView android:id="@*com.jio.join:id/iv_call_log_details" android:background="@*com.jio.join:drawable/joyn_wit_white_camera_selector" android:paddingLeft="@*com.jio.join:dimen/chat_list_avatar_margin_left" android:paddingRight="@*com.jio.join:dimen/chat_list_avatar_margin_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.jio.join:drawable/joyn_wit_white_call_log_details" android:layout_below="@*com.jio.join:id/ll_notification" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>
