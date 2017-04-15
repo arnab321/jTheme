@@ -6,9 +6,9 @@ class ThemerConstants {
 
     // Miscellaneous Checks
     static final Boolean THEME_READY_GOOGLE_APPS = false;
-    static final Boolean ENFORCE_MINIMUM_SUBSTRATUM_VERSION = true;
+    static final Boolean ENFORCE_MINIMUM_SUBSTRATUM_VERSION = false;
     static final int MINIMUM_SUBSTRATUM_VERSION = 510; // 510 is the final MM build
-    static final String TARGETED_SUBSTRATUM_VERSION = "Latest"; // Erase to nullify being latest
+    static final String TARGETED_SUBSTRATUM_VERSION = ""; // Erase to nullify being latest
 
     // Dynamic filter that only works on Substratum 627+
     static final Boolean SUBSTRATUM_FILTER_CHECK = TARGETED_SUBSTRATUM_VERSION.equals("Latest");
@@ -19,7 +19,7 @@ class ThemerConstants {
 
     // AntiPiracy Library Configurations (Relies on PIRACY_CHECK)
     static final Boolean ENFORCE_INTERNET_CHECK = false;
-    static final Boolean ENFORCE_GOOGLE_PLAY_INSTALL = true;
+    static final Boolean ENFORCE_GOOGLE_PLAY_INSTALL = false;
     static final Boolean ENFORCE_AMAZON_APP_STORE_INSTALL = false;
 
     // Blacklisted APKs to prevent theme launching

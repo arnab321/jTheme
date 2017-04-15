@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@*com.jio.join:drawable/joyn_wit_white_keyboard_emoji_category_01_selected" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="screen" />
+    <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_keyboard_emoji_category_01" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="screen" />
+
+    </selector>

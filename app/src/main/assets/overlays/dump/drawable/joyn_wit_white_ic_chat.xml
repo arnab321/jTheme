@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_chat_inactive"  android:tint="@*com.jio.join:color/wit_white_primary_color" />
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_chat_pressed"  android:tint="@*com.jio.join:color/wit_white_primary_color" />
+        </layer-list>
+    </item>
+    <item android:state_focused="true">
+        <layer-list>
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_chat_active"  android:tint="@*com.jio.join:color/wit_white_primary_color" />
+        </layer-list>
+    </item>
+    <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_chat_active"
+          android:tint="@*com.jio.join:color/wit_white_primary_color"
+          />
+</selector>

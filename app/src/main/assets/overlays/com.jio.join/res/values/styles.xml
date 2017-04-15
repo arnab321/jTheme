@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="ImageView.New.GroupChat.Picture.WitWhite" parent="">
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_avatar_edit_groupchat</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/toolbar_cover_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:backgroundTint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:backgroundTintMode">screen</item>
+    </style>
     <style name="Dialer.Slider.Container.WitWhite" parent="">
         <item name="android:background">#ff111111</item>
         <item name="android:paddingLeft">16.0dip</item>
@@ -116,12 +124,97 @@
         <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
         <item name="android:tintMode">src_in</item>
     </style>
-
+    <style name="ImageView.Calls.Dialer.Button.WitWhite" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_calls_dialer_button_bg</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color_disable</item>
+    </style>
     <style name="ImageView.Default.Calls.WitWhite" parent="">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
-        <item name="android:tintMode">screen</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color_disable</item>
     </style>
+    <style name="ImageView.Calls.Ongoing.Actions.WitWhite" parent="">
+        <item name="android:background">@*com.jio.join:color/transparent</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/calls_top_tab_actions_info</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color_disable</item>
+        <item name="android:tintMode">multiply</item>
+    </style>
+    <style name="ImageView.Calls.BottomBar.Icon.WitWhite" parent="">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color_disable</item>
+        <!--<item name="android:tintMode">multiply</item>-->
+    </style>
+
+
+    <style name="FrameLayout.Calls.Incoming.WitWhite" parent="@*com.jio.join:style/FrameLayout.Default.WitWhite">
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_calls_bg</item>
+        <item name="android:backgroundTint">@*com.jio.join:color/wit_white_primary_color_disable</item>
+        <item name="android:backgroundTintMode">multiply</item>
+    </style>
+    <style name="FrameLayout.Calls.OngoingCall.WitWhite" parent="@*com.jio.join:style/LinearLayout.Default.Calls.WitWhite">
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_calls_bg</item>
+        <item name="android:backgroundTint">@*com.jio.join:color/wit_white_primary_color_disable</item>
+        <item name="android:backgroundTintMode">multiply</item>
+    </style>
+    <style name="Toolbar.Title.RelianceWhite" parent="@*com.jio.join:style/Toolbar.Title.WitWhite">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Toolbar.Spinner.Title.RelianceWhite" parent="@*com.jio.join:style/Toolbar.Spinner.Title.WitWhite">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="LinearLayout.Chat.MessageWrapper.Right.WitWhite" parent="">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_ic_chat_balloon_right_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@*com.jio.join:color/wit_white_primary_color_disable</item>
+        <item name="android:backgroundTintMode">src_in</item>
+    </style>
+    <style name="LinearLayout.FileTransferWrapper.Right.WitWhite" parent="">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*com.jio.join:drawable/joyn_wit_white_ic_chat_balloon_right_selector</item>
+        <item name="android:layout_width">@*com.jio.join:dimen/chat_ft_horizontal_width</item>
+        <item name="android:layout_height">@*com.jio.join:dimen/chat_ft_horizontal_height</item>
+        <item name="android:backgroundTint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:backgroundTintMode">src_in</item>
+    </style>
+    <!--
+    <style name="BasicHomeScreen.Item.Status.WitWhite" parent="">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+        <item name="android:src">@*com.jio.join:drawable/joyn_wit_white_ic_capability_favorites</item>
+        <item name="android:layout_alignRight">@*com.jio.join:id/iv_contact_picture</item>
+        <item name="android:layout_alignBottom">@*com.jio.join:id/iv_contact_picture</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">multiply</item>
+    </style>
+    <style name="Quick.Contact.Profile.RCS.Badge.WitWhite" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+        <item name="android:src">@*com.jio.join:drawable/joyn_wit_white_ic_capability_favorites</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_alignRight">@*com.jio.join:id/iv_avatar_photo</item>
+        <item name="android:layout_alignBottom">@*com.jio.join:id/iv_avatar_photo</item>
+        <item name="android:tint">@*com.jio.join:color/wit_white_primary_color</item>
+        <item name="android:tintMode">multiply</item>
+    </style>
+-->
 
     </resources>
