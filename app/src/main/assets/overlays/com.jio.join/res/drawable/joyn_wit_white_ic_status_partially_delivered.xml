@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.jio.join">
+    <item app:state_sim_single="true">
+        <layer-list>
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_im_sim" android:right="16.0dip" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="src_in" />
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_im_partially_delivered" android:left="16.0dip" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="src_in" />
+        </layer-list>
+    </item>
+    <item app:state_sim_slot_one="true">
+        <layer-list>
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_im_sim_1" android:right="16.0dip" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="src_in" />
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_im_partially_delivered" android:left="16.0dip" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="src_in" />
+        </layer-list>
+    </item>
+    <item app:state_sim_slot_two="true">
+        <layer-list>
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_im_sim_2" android:right="16.0dip" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="src_in" />
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_im_partially_delivered" android:left="16.0dip" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="src_in" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:drawable="@*com.jio.join:drawable/joyn_wit_white_ic_im_partially_delivered" android:tint="@*com.jio.join:color/wit_white_primary_color" android:tintMode="src_in" />
+        </layer-list>
+    </item>
+</selector>

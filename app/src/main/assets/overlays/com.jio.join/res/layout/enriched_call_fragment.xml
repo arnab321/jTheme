@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@*com.jio.join:style/CallComposer.Container.Wrapper.WitWhite"
+                xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.jio.join">
+    <com.witsoftware.wmc.components.toolbar.CustomToolbar android:id="@*com.jio.join:id/toolbar" app:contentInsetStartWithNavigation="0.0dip" app:titleTextColor="@android:color/white" style="@*com.jio.join:style/ToolBar.RelianceWhite" />
+</RelativeLayout>

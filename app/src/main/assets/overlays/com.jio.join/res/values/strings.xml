@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="actionbar_rollout_kitkat_sms">Set as default messaging app to be able to send SMS</string>
+</resources>

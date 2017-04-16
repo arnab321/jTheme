@@ -99,8 +99,10 @@
     <color name="wit_white_red">#ff8f2424</color>
 
     <color name="material_grey_50">#ff111111</color>
+    <color name="joyn_wit_white_chat_rollout_grey">#ff151515</color>
+    <color name="joyn_wit_white_chat_rollout_blue">#ff151515</color>
 
-
+    <!-- accent -->
     <color name="circular_reveal_from_color">@*com.jio.join:color/wit_white_primary_color</color>
     <color name="fcd_frame_background">@*com.jio.join:color/wit_white_primary_color</color>
     <color name="joyn_wit_white_call_composer_bottom_actionbar_textcolor">@*com.jio.join:color/wit_white_primary_color</color>
@@ -116,7 +118,7 @@
     <color name="accent_material_light">@*com.jio.join:color/wit_white_primary_color</color>
     <color name="notification_bg_call">@*com.jio.join:color/wit_white_primary_color</color>
 
-    <!-- accent 
+<!--
     <color name="wit_white_primary_color">#ffff0000</color>
     <color name="wit_white_primary_color_disable">#8cff0000</color>
 -->
