@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="actionbar_rollout_kitkat_sms">Set as default messaging app to be able to send SMS</string>
+    <string name="actionbar_rollout_kitkat_sms">Set as default messaging app to send SMS</string>
+    <string name="wifi_connected_hard_sim_no_volte">Jio4GVoice is currently not available on Wifi</string>
 </resources>

@@ -62,6 +62,7 @@
     <color name="transparent_white_54_percent">#8a000000</color>
 
     <color name="grey">#ff9999bb</color>
+    <color name="grey_12_percent_black">#1bffffff</color>
 
     <!--<color name="transparent_black_0_percent">#0000ffff</color>-->
     <!--<color name="transparent_black_25_percent">#44ff00ff</color>-->
@@ -118,8 +119,4 @@
     <color name="accent_material_light">@*com.jio.join:color/wit_white_primary_color</color>
     <color name="notification_bg_call">@*com.jio.join:color/wit_white_primary_color</color>
 
-<!--
-    <color name="wit_white_primary_color">#ffff0000</color>
-    <color name="wit_white_primary_color_disable">#8cff0000</color>
--->
 </resources>
