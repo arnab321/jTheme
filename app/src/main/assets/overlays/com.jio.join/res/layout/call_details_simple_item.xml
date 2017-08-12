@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*com.jio.join:drawable/joyn_wit_white_generic_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@*com.jio.join:id/rl_call_details" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.witsoftware.wmc.components.font.FontTextView android:gravity="center" android:id="@*com.jio.join:id/tv_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@*com.jio.join:style/TextView.ChatList.Contact.Number.WitWhite" />
+        <com.witsoftware.wmc.components.font.FontEllipsizingTextView android:id="@*com.jio.join:id/tv_call_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="5.0dip" android:layout_below="@*com.jio.join:id/tv_extra_info" android:layout_alignParentLeft="true" style="@*com.jio.join:style/TextView.ChatList.Contact.Number.WitWhite" />
+    </RelativeLayout>
+</RelativeLayout>
