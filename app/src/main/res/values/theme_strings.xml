@@ -1,8 +1,0 @@
-<resources>
-    <string name="ThemeName">JioTheme</string>
-    <string name="ThemeAuthor">arn</string>
-    <string-array name="ThemeChangelog">
-        <item>Make it blacc</item>
-        <item>Implement accents</item>
-    </string-array>
-</resources>
